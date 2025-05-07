@@ -19,8 +19,8 @@ header{
     background-size: 200% 200%;
     animation: gradient 5s ease infinite;
     position: fixed;
-    
-    width: 1230px;
+    width: 95vw;
+   
     
 }
 header a{
@@ -40,18 +40,27 @@ header a:hover{
 
 }
 h2{
-    font-family: 'Arial', sans-serif;
-    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 2px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 4px rgba(131, 250, 5, 0.445);
     margin-top: 20px;
-   color: #101d5cc7;
+    color: #101d5cc7;
 }
 h2:hover{
     color: white;
     text-shadow: 0 0 10px rgba(17, 232, 92, 0.5);
     font-size: 45px;
 }
+@media screen and (max-width: 400px) {
+    header{
+        width: 100%;
+    }
+    .card{
+        width: 90vw;
+        margin: 10px auto;
+    }
+  }
